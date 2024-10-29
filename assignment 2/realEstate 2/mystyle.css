@@ -1,0 +1,142 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+p{
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+/* header */
+.site-header {
+    background-image: url(./img/header.jpg);
+    height: 400px;
+    background-size: cover ;
+    background-position: top right;
+    color: white;
+}
+
+.site-header a {
+    color: white;
+    padding-right: 30px;
+}
+
+.bar-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* about */
+.about-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* houses */
+.houses-main-container {
+    display: flex;
+}
+
+.houses-container{
+    display: flex;
+}
+.houses-item{
+    background-color: #dedede;
+    margin-right: 10px;
+}
+.houses-item-img{
+    width:100%;
+    height: auto;
+
+}
+.houses-item-text{
+    padding: 20px;  
+}
+.price{
+    color:green;
+    font-weight: bold;
+}
+.icon-container{
+    display: flex;
+    /* justify-content: center;    
+    width:20px;
+    padding:10px;
+    margin-right:20px; */
+    
+}
+.icon-container img{
+    margin-right: 20px;
+}
+.icons-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* utilities */
+.btn {
+    display: block;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* contact */
+.contact-header {
+    background-color: orange;
+    height: 150px;
+    color: black;
+}
+
+.contact-header a {
+    color: black;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-container {
+    background-color: #DEDEDE;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 16px;
+}
+
+fieldset {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
